@@ -100,6 +100,7 @@ class CurrentLocationForecast : BaseFragment<CurrentLocationForecastViewModel>(R
 
 
     fun updateCityData(data:CurrentWeatherResponse){
+        city_name.text = data.name
         temperature.text = data.main?.getTempString()
         description.text = data.weather?.first()?.getDescriptionText()
         maxTempp.text = "Max Temp. : " + data.main?.getTempMaxString()
