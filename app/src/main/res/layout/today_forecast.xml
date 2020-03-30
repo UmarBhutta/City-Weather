@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        app:cardCornerRadius="24dp"
+        android:backgroundTint="@color/colorPrimary"
+        app:cardElevation="8dp"
+        tools:visibility="visible">
+
+        <RelativeLayout
+            android:id="@+id/rootView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/city_name"
+                android:layout_width="match_parent"
+                android:layout_height="124dp"
+                android:layout_marginStart="36dp"
+                android:layout_marginLeft="36dp"
+                android:layout_marginTop="?actionBarSize"
+                android:layout_marginEnd="36dp"
+                android:layout_marginRight="36dp"
+                android:textSize="30sp"
+                android:textColor="@color/white"
+                tools:text="Dubai"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_toStartOf="@+id/temperature"
+                android:layout_toLeftOf="@+id/temperature" />
+
+            <TextView
+                android:id="@+id/temperature"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+
+                android:layout_marginTop="?actionBarSize"
+                android:layout_marginEnd="36dp"
+                android:textColor="@color/white"
+                android:textSize="100sp"
+                tools:text="25°"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="36dp" />
+
+            <TextView
+                android:id="@+id/description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/temperature"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/white"
+                android:textSize="23sp"
+                tools:text="Clouds &amp; Sun" />
+
+            <TextView
+                android:id="@+id/maxTempp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/description"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="16dp"
+                android:text="34"
+                android:textColor="@color/white"
+                android:textSize="19sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/windSpeed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/maxTempp"
+                android:layout_centerHorizontal="true"
+                android:textColor="@android:color/white"
+                android:layout_marginBottom="24dp"
+                android:textSize="27sp"
+                tools:text="35°" />
+        </RelativeLayout>
+    </com.google.android.material.card.MaterialCardView>
+</layout>

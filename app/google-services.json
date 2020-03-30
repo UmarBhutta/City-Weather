@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "966774405054",
+    "firebase_url": "https://cityweather-14765.firebaseio.com",
+    "project_id": "cityweather-14765",
+    "storage_bucket": "cityweather-14765.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:966774405054:android:8898f90cc20b048265abef",
+        "android_client_info": {
+          "package_name": "com.cityweather"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "966774405054-mu71gl4pulhh7ns01jkdmadjjfqqmd6m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cityweather",
+            "certificate_hash": "c621f8929e4c1948265e1e7307f724bff2193b0a"
+          }
+        },
+        {
+          "client_id": "966774405054-0dj4sg7rf3uf9f9f39gnrj1h1bgh7sar.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPAK2mZrBeI8olwQduiDATJQ11lqyI0EI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "966774405054-0dj4sg7rf3uf9f9f39gnrj1h1bgh7sar.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
