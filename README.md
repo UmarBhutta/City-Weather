@@ -38,7 +38,7 @@ Use the Android Studio *Build Variants* button to choose between **release** and
 
 
 ## Code Coverage
-Use  ./gradlew JacocoCoverage to generate code coverage report
+Use  ./gradlew JacocoCoverage to generate code coverage report.
 
 ## Maintainers
 This project is mantained by:
