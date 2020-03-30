@@ -6,7 +6,7 @@ City Weather is a simple forecast app, which uses some APIs to fetch 5 day / 3 h
 ## Installation
 Clone this repository and import into **Android Studio**
 ```bash
-git clone git@github.com:UmarBhutta/City-Weather.git
+git clone https://github.com/UmarBhutta/City-Weather.git
 ```
 
 ## Libraries and tools 🛠
@@ -27,8 +27,8 @@ git clone git@github.com:UmarBhutta/City-Weather.git
 <li><a href="https://github.com/JakeWharton/ThreeTenABP">ThreeTenABP</a></li>
 
 ## Testing 🧪
-<li><a href="https://github.com/mockk/mockk">Mockk</a></li>
-<li><a href="https://github.com/google/truth">Truth</a></li>
+<li><a href="https://github.com/junit-team/junit4">Junit</a></li>
+<li><a href="https://developer.android.com/training/testing/espresso">Espresso</a></li>
 
 ## Architecture
 The app uses MVVM [Model-View-ViewModel] architecture to have a unidirectional flow of data, separation of concern, testability, and a lot more.
@@ -37,11 +37,8 @@ The app uses MVVM [Model-View-ViewModel] architecture to have a unidirectional f
 Use the Android Studio *Build Variants* button to choose between **release** and **staging** flavors combined with debug and release build types
 
 
-## Generating  APK
-From Android Studio:
-1. ***Build*** menu
-2. ***Generate Signed APK...***
-3. Fill in the keystore information *(you only need to do this once manually and then let Android Studio remember it)*
+## Code Coverage
+Use  ./gradlew JacocoCoverage to generate code coverage report
 
 ## Maintainers
 This project is mantained by:
